@@ -32,7 +32,7 @@ uvicorn main:app --reload
 
 ## Endpoints principales
 
-> En lugar de la tabla, incluimos un diagrama visual de los endpoints:
+> Incluimos un diagrama de los endpoints:
 
 <p align="center">
   <img src="docs/imgs/endpoints.png" alt="Diagrama de Endpoints" width="600"/>
