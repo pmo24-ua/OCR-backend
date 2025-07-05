@@ -1,0 +1,10 @@
+fastapi==0.111.*
+uvicorn[standard]==0.29.*
+easyocr==1.7.1               # o la última estable
+torch>=2.0                   # se instala como dep. de easyocr (CPU o CUDA)
+opencv-python-headless>=4.9
+python-multipart             # para manejar multipart/form-data
+passlib[bcrypt]
+python-jose[cryptography]
+sqlmodel               
+stripe
